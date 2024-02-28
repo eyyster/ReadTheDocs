@@ -3,7 +3,7 @@ version: "2"
 build:
   os: "windows-10"
   tools:
-    python: "Flutter 3.16"
+    flutter: "3.16"
 
 flutter:
   install:
