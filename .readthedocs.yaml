@@ -1,13 +1,10 @@
 version: "2"
 
 build:
-  os: "ubuntu-22.04"
+  os: "Windows 10"
   tools:
-    python: "3.10"
+    python: "Flutter 3.16"
 
-python:
+flutter:
   install:
-    - requirements: docs/requirements.txt
-
-sphinx:
-  configuration: docs/source/conf.py
+    - requirements: setapprojects/pubspec.yaml
